@@ -1,0 +1,123 @@
+// @import url(../assets/fonts/Poppins-Regular.ttf);
+@font-face {
+  font-family: poppins;
+  src: url("../assets/fonts/Poppins-Regular.ttf");
+}
+.root {
+  font-family: "poppins";
+}
+.bg-mobile {
+  background: url("../assets/bg-moble.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.icon-size {
+  width: 17px;
+  margin: 3px 10px 5px 10px;
+}
+.w-100 {
+  width: 100%;
+}
+.hero-sec-title {
+  align-self: center;
+}
+.btn-outline-primary:hover {
+  background: linear-gradient(268.83deg, #2b7a78 -4.29%, #3aafa9 100%);
+}
+.Avaliable-title {
+  font-style: normal;
+  font-weight: 600;
+
+  font-size: 16px;
+  line-height: 25px;
+  /* identical to box height, or 156% */
+
+  text-transform: capitalize;
+
+  /* p3 */
+
+  color: #3aafa9;
+}
+.apple-button {
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  // align-items: center;
+  // padding: 0px;
+  // gap: 10px;
+
+  background: linear-gradient(268.83deg, #2b7a78 -4.29%, #3aafa9 100%);
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  // flex: none;
+  // order: 0;
+  // flex-grow: 0;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+.avatar {
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+.yone-bg {
+  color: #3aafa9;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 80px;
+  /* or 167% */
+
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+
+  background: url("../assets/circle-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.yone-title:lang(en) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 80px;
+  /* or 167% */
+  text-align: left;
+
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+
+  /* header */
+
+  color: #242323;
+}
+.yone-title:lang(ar) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 80px;
+  /* or 167% */
+  text-align: right;
+
+  letter-spacing: 0em;
+  text-transform: capitalize;
+
+  /* header */
+
+  color: #242323;
+}

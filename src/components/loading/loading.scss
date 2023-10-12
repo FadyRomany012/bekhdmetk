@@ -1,0 +1,48 @@
+.loading {
+  -webkit-animation: sk-scaleout 1s infinite ease-in-out;
+  animation: sk-scaleout 1s infinite ease-in-out;
+  background-color: #124c62;
+  border-radius: 100%;
+  height: 6em;
+  width: 6em;
+}
+
+.container-spiner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  align-items: center;
+  background-color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+@keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 0.5;
+    transform: scale(1);
+  }
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3aafa9;
+  border-radius: 20px;
+  outline: 1px solid slategrey;
+}
